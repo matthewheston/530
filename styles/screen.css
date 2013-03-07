@@ -29,3 +29,41 @@ ol
   margin-bottom: 30px;
 }
 /* end Vertical Grid */
+
+/* Base Styles */
+body
+{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+header h1 a
+{
+  text-decoration: none;
+}
+
+header h1
+{
+  text-align: center;
+}
+
+nav
+{
+  text-align: center;
+}
+
+nav li
+{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: thin;
+  border-style: dashed;
+}
+
+nav li:first-child {
+  border-top: thin;
+  border-style: dashed;
+}
+
+/* end Base Styles */
