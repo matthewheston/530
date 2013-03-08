@@ -67,3 +67,29 @@ nav li:first-child {
 }
 
 /* end Base Styles */
+
+@media (min-width: 800px)
+{
+  header h1
+  {
+    text-align: left;
+  }
+
+  nav
+  {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+  }
+
+  #main
+  {
+    float: left;
+    width: 60%;
+  }
+
+  footer
+  {
+    clear: both;
+  }
+}
