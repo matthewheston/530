@@ -31,15 +31,32 @@ ol
 /* end Vertical Grid */
 
 /* Base Styles */
+html, body
+{
+  background-color: #eee;
+  color: #111;
+}
+
+a
+{
+  color: #000;
+}
+
 body
 {
   margin-left: 5%;
   margin-right: 5%;
 }
 
+header
+{
+  background-color: #ddd;
+}
+
 header h1 a
 {
   text-decoration: none;
+  color: #010101;
 }
 
 header h1
