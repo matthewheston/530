@@ -62,6 +62,7 @@ header h1 a
 header h1
 {
   text-align: center;
+  text-transform: lowercase;
 }
 
 nav
@@ -90,6 +91,7 @@ nav li:first-child {
   header h1
   {
     text-align: left;
+    margin-left: 5%;
   }
 
   nav
