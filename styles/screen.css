@@ -117,5 +117,6 @@ nav li:first-child {
   {
     width: 30%;
     clear: both;
+    font-size: 80%;
   }
 }
