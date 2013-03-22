@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
+@import url(http://fonts.googleapis.com/css?family=Dosis);
 /* YUI Reset */
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
@@ -35,6 +37,7 @@ html, body
 {
   background-color: #eee;
   color: #111;
+  font-family: "Georgia", "Goudy Bookletter 1911", serif;
 }
 
 a
@@ -51,11 +54,13 @@ body
 header
 {
   background-color: #ddd;
+  font-family: "Dosis", sans-serif;
 }
 
 header h1 a
 {
   text-decoration: none;
+  font-weight: bold;
   color: #010101;
 }
 
@@ -68,6 +73,7 @@ header h1
 nav
 {
   text-align: center;
+  letter-spacing: 0.1em;
 }
 
 nav li
