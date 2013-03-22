@@ -109,6 +109,7 @@ nav li:first-child {
 
   footer
   {
+    width: 30%;
     clear: both;
   }
 }
