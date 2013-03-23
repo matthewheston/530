@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
 @import url(http://fonts.googleapis.com/css?family=Dosis);
+
 /* YUI Reset */
 /*
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
@@ -89,6 +90,22 @@ nav li:first-child {
   border-top: thin;
   border-style: dashed;
 }
+
+#resume h2
+{
+  font-weight: bold;
+}
+
+.experience .dates
+{
+  font-style: italic;
+}
+
+.experience .description
+{
+  margin-left: 2%;
+}
+
 
 /* end Base Styles */
 
