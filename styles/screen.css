@@ -91,6 +91,11 @@ nav li:first-child {
   border-style: dashed;
 }
 
+#contact #main li
+{
+  list-style-type: disc;
+}
+
 #resume h2
 {
   font-weight: bold;
