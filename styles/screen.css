@@ -146,3 +146,29 @@ nav li:first-child {
     font-size: 80%;
   }
 }
+@media (min-width: 1260px)
+{
+  .project-name
+  {
+    float: left;
+    border-right: thin;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: #000;
+    margin-right: .5em;
+    padding-right: .5em;
+  }
+
+  .project-url
+  {
+    float: left;
+  }
+
+  .project-description
+  {
+    clear:both;
+  }
+
+}
