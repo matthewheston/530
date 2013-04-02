@@ -111,6 +111,10 @@ nav li:first-child {
   margin-left: 2%;
 }
 
+.project-name
+{
+  font-weight: bold;
+}
 
 /* end Base Styles */
 
