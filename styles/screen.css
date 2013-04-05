@@ -27,7 +27,8 @@ h1
 
 p,
 ul,
-ol
+ol,
+.notes
 {
   margin-bottom: 30px;
 }
@@ -116,6 +117,17 @@ nav li:first-child {
   font-weight: bold;
 }
 
+.tech-summary
+{
+  font-size: 85%;
+}
+
+.tech-summary h2
+{
+  font-weight: bold;
+  text-align: center;
+}
+
 /* end Base Styles */
 
 @media (min-width: 800px)
@@ -145,7 +157,32 @@ nav li:first-child {
     clear: both;
     font-size: 80%;
   }
+
+  .project
+  {
+    clear: both;
+  }
+
+  .notes
+  {
+    float: left;
+    width: 60%;
+  }
+
+  .tech-summary
+  {
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    padding: 1% 5% 1% 5%;
+    border-left: thin;
+    border-right: thin;
+    border-bottom: thin;
+    border-top: thin;
+    border-style: dashed;
+  }
 }
+
 @media (min-width: 1260px)
 {
   .project-name
@@ -166,9 +203,9 @@ nav li:first-child {
     float: left;
   }
 
-  .project-description
+  .project-description, .notes
   {
-    clear:both;
+    clear: both;
   }
 
 }
