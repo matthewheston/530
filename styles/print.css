@@ -11,15 +11,15 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 /* Vetical Grid */
 body
 {
-  font-size: 18pt;
-  line-height: 24pt;
+  font-size: 12pt;
+  line-height: 16pt;
 }
 
 h1
 {
-  font-size: 36pt;
-  line-height: 48pt;
-  margin-bottom: 24pt;
+  font-size: 24pt;
+  line-height: 32pt;
+  margin-bottom: 16pt;
 }
 
 p,
@@ -27,7 +27,7 @@ ul,
 ol,
 .notes
 {
-  margin-bottom: 24pt;
+  margin-bottom: 16pt;
 }
 /* end Vertical Grid */
 body
