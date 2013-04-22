@@ -1,108 +1,80 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" media="screen" href="styles/screen.css" />
-    <link rel="stylesheet" media="print" href="styles/print.css" />
-</head>
-<body>
+---
+layout: default
+---
 
-  <header>
-    <h1><a href="index.html">Matthew Heston</a></h1>
-    <nav>
+<ul class="project">
+  <li class="project-name">Is There A White Sox Game Today</li>
+  <li class="project-url"><a href="http://www.isthereawhitesoxgametoday.com">www.isthereawhitesoxgametoday.com</a></li>
+  <li class="project-description">
+    <ul>
+      <li class="notes">
+        This is probably both the simplest and most popular website I have made.
+        Based on <a href="http://www.isthereacubsgametoday.com">
+          isthereacubsgametoday.com</a>, this is a website that helps people
+        trying to get around the south side of Chicago know whether or not they'll
+        have to deal with the traffic backups and service disruptions that come
+        along with the crowd at U.S. Cellular Field. What I really like about this web app is that
+        it demonstrates how a small amount of code  can be used to make something
+        extremely useful.
+      </li>
+      <li class="tech-summary">
+        <h2>Technical Summary</h2>
+        Built in Ruby on top of <a href = "http://www.sinatrarb.com/">Sinatra</a>.
+        View it on <a href="https://github.com/matthewheston/is-there-a-white-sox-game-today">Github</a>.
+      </li>
+    </ul>
+  </ul>
+
+  <ul class="project">
+    <li class="project-name">exquisite chat</li>
+    <li class="project-url"><a href="http://fierce-fog-4004.herokuapp.com/">fierce-fog-4004.herokuapp.com</a></li>
+    <li class="project-description">
       <ul>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="resume.html">Resume</a></li>
+        <li class="notes">
+          This project is an attempt at creating a digital version of an
+          <a href="http://en.wikipedia.org/wiki/Exquisite_corpse">exquisite
+            corpse</a>, an old surrealist technique for creating collaborative
+          art. Users invite their friends into a room where they all
+          contribute lines to a poem, with the caveat that they only ever see
+          the last line the person before them wrote, until the entire poem
+          is revealed at the end of the session. There's <a href="http://leonardoflores.net/">
+            a lot of interesting projects</a> happening in the digital poetics world.
+          exquisite chat is one way I'm trying to explore how the web can be used
+          as a medium for creative expression and collaboration.
+        </li>
+        <li class="tech-summary">
+          <h2>Technical Summary</h2>
+          Built using <a href="http://nodejs.org/">node.js</a> and making use of
+          <a href="http://redis.io/">Redis</a> data store.
+        </li>
       </ul>
-    </nav>
-  </header>
-
-  <div id="main">
-    <ul class="project">
-      <li class="project-name">Is There A White Sox Game Today</li>
-      <li class="project-url"><a href="http://www.isthereawhitesoxgametoday.com">www.isthereawhitesoxgametoday.com</a></li>
-      <li class="project-description">
-        <ul>
-          <li class="notes">
-            This is probably both the simplest and most popular website I have made.
-            Based on <a href="http://www.isthereacubsgametoday.com">
-              isthereacubsgametoday.com</a>, this is a website that helps people
-            trying to get around the south side of Chicago know whether or not they'll
-            have to deal with the traffic backups and service disruptions that come
-            along with the crowd at U.S. Cellular Field. What I really like about this web app is that
-            it demonstrates how a small amount of code  can be used to make something
-            extremely useful.
-          </li>
-          <li class="tech-summary">
-            <h2>Technical Summary</h2>
-            Built in Ruby on top of <a href = "http://www.sinatrarb.com/">Sinatra</a>.
-            View it on <a href="https://github.com/matthewheston/is-there-a-white-sox-game-today">Github</a>.
-          </li>
-        </ul>
     </ul>
 
     <ul class="project">
-      <li class="project-name">exquisite chat</li>
-      <li class="project-url"><a href="http://fierce-fog-4004.herokuapp.com/">fierce-fog-4004.herokuapp.com</a></li>
+      <li class="project-name">Chicago Crime Network Visualization</li>
+      <li class="project-url"><a href="http://nameless-coast-5335.herokuapp.com/">nameless-coast-5335.herokuapp.com</a></li>
       <li class="project-description">
         <ul>
           <li class="notes">
-            This project is an attempt at creating a digital version of an
-            <a href="http://en.wikipedia.org/wiki/Exquisite_corpse">exquisite
-              corpse</a>, an old surrealist technique for creating collaborative
-            art. Users invite their friends into a room where they all
-            contribute lines to a poem, with the caveat that they only ever see
-            the last line the person before them wrote, until the entire poem
-            is revealed at the end of the session. There's <a href="http://leonardoflores.net/">
-              a lot of interesting projects</a> happening in the digital poetics world.
-            exquisite chat is one way I'm trying to explore how the web can be used
-            as a medium for creative expression and collaboration.
+            This network visualization displays crimes that occurred in Chicago
+            on June 24, 2012, one of the days with the most violent crimes of
+            the year.
+            <a href="https://data.cityofchicago.org/">The City of Chicago Data
+              Portal</a> makes a lot of data available. My hope is that visualizations
+            like this encourage users to interact with and explore the data in ways
+            that are not possible through traditional interfaces. I think this
+            also represents what I consider an exciting new place in web standards,
+            where developers are able to create interesting and novel interfaces and
+            data visualizations that are available to anyone with a web browser.
           </li>
           <li class="tech-summary">
             <h2>Technical Summary</h2>
-            Built using <a href="http://nodejs.org/">node.js</a> and making use of
-            <a href="http://redis.io/">Redis</a> data store.
+            This is a purely client side project making use of
+            <a href="http://d3js.org/">d3</a>, based on Jim Vallandingham's
+            <a href="http://flowingdata.com/2012/08/02/how-to-make-an-interactive-network-visualization/">
+              tutorial</a> on making network visualizations. A Ruby script
+            was used to transform the JSON from the Chicago data portal into
+            a form more easily consumed by d3.
           </li>
         </ul>
       </ul>
-
-      <ul class="project">
-        <li class="project-name">Chicago Crime Network Visualization</li>
-        <li class="project-url"><a href="http://nameless-coast-5335.herokuapp.com/">nameless-coast-5335.herokuapp.com</a></li>
-        <li class="project-description">
-          <ul>
-            <li class="notes">
-              This network visualization displays crimes that occurred in Chicago
-              on June 24, 2012, one of the days with the most violent crimes of
-              the year.
-              <a href="https://data.cityofchicago.org/">The City of Chicago Data
-                Portal</a> makes a lot of data available. My hope is that visualizations
-              like this encourage users to interact with and explore the data in ways
-              that are not possible through traditional interfaces. I think this
-              also represents what I consider an exciting new place in web standards,
-              where developers are able to create interesting and novel interfaces and
-              data visualizations that are available to anyone with a web browser.
-            </li>
-            <li class="tech-summary">
-              <h2>Technical Summary</h2>
-              This is a purely client side project making use of
-              <a href="http://d3js.org/">d3</a>, based on Jim Vallandingham's
-              <a href="http://flowingdata.com/2012/08/02/how-to-make-an-interactive-network-visualization/">
-                tutorial</a> on making network visualizations. A Ruby script
-              was used to transform the JSON from the Chicago data portal into
-              a form more easily consumed by d3.
-            </li>
-          </ul>
-        </ul>
-
-    </div>
-
-    <footer>
-      Content and design by Matthew Heston. <a href="http://validator.w3.org/check?uri=referer">Validate Me.</a>
-    </footer>
-
-  </body>
-</html>
