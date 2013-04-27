@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
 @import url(http://fonts.googleapis.com/css?family=Dosis);
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
 
 /* YUI Reset */
 /*
@@ -28,6 +29,7 @@ h1
 p,
 ul,
 ol,
+pre,
 .notes
 {
   margin-bottom: 30px;
@@ -45,6 +47,41 @@ html, body
 a
 {
   color: #000;
+}
+
+code
+{
+  font-family: "PT Mono", monospace;
+  font-size: 80%;
+}
+
+.gist
+{
+  font-size: 80%;
+}
+
+article h2
+{
+  text-decoration: none;
+  float: left;
+  font-weight: bold;
+}
+
+.published-on
+{
+  float: right;
+  font-style: italic;
+}
+
+article p
+{
+  clear: both;
+}
+
+pre
+{
+  border-style: dotted;
+  border-width: thin;
 }
 
 body
