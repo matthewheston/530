@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
+@import url(http://fonts.googleapis.com/css?family=Amethysta);
 @import url(http://fonts.googleapis.com/css?family=Dosis);
 @import url(http://fonts.googleapis.com/css?family=PT+Mono);
 
@@ -41,7 +41,7 @@ html, body
 {
   background-color: #eee;
   color: #111;
-  font-family: "Goudy Bookletter 1911", serif;
+  font-family: "Amethysta", serif;
 }
 
 a
