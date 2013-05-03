@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Amethysta);
 @import url(http://fonts.googleapis.com/css?family=Dosis);
 @import url(http://fonts.googleapis.com/css?family=PT+Mono);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
 /* YUI Reset */
 /*
@@ -65,12 +66,14 @@ article h2
   text-decoration: none;
   float: left;
   font-weight: bold;
+  font-family: "Roboto Slab";
 }
 
 .published-on
 {
   float: right;
-  font-style: italic;
+  font-size: 80%;
+  font-family: "Roboto Slab";
 }
 
 article p
@@ -144,8 +147,9 @@ nav a:hover
   list-style-type: disc;
 }
 
-#resume h2
+h2, #greeting
 {
+  font-family: "Roboto Slab";
   font-weight: bold;
 }
 
@@ -162,6 +166,7 @@ nav a:hover
 .project-name
 {
   font-weight: bold;
+  font-family: "Roboto Slab";
 }
 
 .tech-summary
