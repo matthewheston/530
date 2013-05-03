@@ -85,6 +85,7 @@ pre
 {
   border-style: dotted;
   border-width: thin;
+  background-color: #D4D4D4;
 }
 
 body
@@ -235,6 +236,7 @@ footer
     border-bottom: thin;
     border-top: thin;
     border-style: dashed;
+    background-color: #D4D4D4;
   }
 }
 
